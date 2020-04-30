@@ -16,6 +16,5 @@ printf "\n" && curl -s https://corona-stats.online/?minimal=true | grep "World" 
 ## print date of results
 printf "\n" && date '+[COVID-19 Statistics, Date: %A, %d/%b %Y]' && printf "\n"
 
-#custom date
-#printf "\n" && printf "[COVID-19 Statistics, Date: Tuesday, 29/Apr 2020]\n" && printf "\n"
+
 
